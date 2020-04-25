@@ -14,6 +14,17 @@
   </parent>
   <name>petclinic</name>
 
+<distributionManagement>
+<repository>
+    <id>devops-release</id>
+    <url>http://localhost:8081/nexus/content/repositories/devops-release</url>
+  </repository>
+  <snapshotRepository>
+    <id>devops-snapshot</id>
+    <url>http://localhost:8081/nexus/content/repositories/devops-snapshot</url>
+  </snapshotRepository>
+</distributionManagement>
+
   <properties>
 
     <!-- Generic properties -->
