@@ -13,20 +13,9 @@
     <version>1.4.2.RELEASE</version>
   </parent>
   <name>petclinic</name>
-  
-  <distributionManagement>
- <snapshotRepository>
-    <id>devops-snapshot</id>
-    <url>http://localhost:8081/nexus/content/repositories/devops-snapshot</url>
-  </snapshotRepository>
-  <repository>
-    <id>devops-release</id>
-    <url>http://localhost:8081/nexus/content/repositories/devops-release</url>
-  </repository>
-</distributionManagement>
-  
-  
-<properties>
+
+  <properties>
+
     <!-- Generic properties -->
     <java.version>1.7</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

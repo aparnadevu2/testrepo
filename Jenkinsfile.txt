@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+	stages {
+	    stage ('compile stage') {
+		    steps {
+			    withMaven(maven : 'D:\Quality\apache-maven-3.5.0') {
+				    bat 'mvn clean compile'
+					}
+				}
+			}
+		}
+	}	
+			
+
+
